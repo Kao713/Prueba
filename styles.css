@@ -1,0 +1,46 @@
+css
+/ Estilo general del cuerpo /
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/ Estilo para los encabezados /
+h1 {
+    color: #4CAF50;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #333;
+    font-size: 2em;
+}
+
+/ Estilo para los párrafos /
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/ Estilo para los enlaces /
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/ Estilo para un contenedor /
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
